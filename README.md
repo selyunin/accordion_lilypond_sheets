@@ -12,8 +12,7 @@ LilyPond Sheet Music for Accordion
 
 A repository holds music sheets for accordion 
 (particularly B-griff button accordion) engraved in 
-[Lilypond](http://lilypond.org/), a high-quality, free and
-open source music typesetting program.
+[Lilypond](http://lilypond.org/).
 
 
 ### <a name="quickstart"  ></a>2. Quick start: Creating Music Sheet & Midi using LilyPond
@@ -29,8 +28,7 @@ the sheet music along with the [`MIDI`](https://en.wikipedia.org/wiki/MIDI) file
 
 
 [Sources](https://github.com/cellist/Lilypond-Sheet-Music) of 
-[Cellist](https://github.com/cellist) were used as a basis  
-and adapted for accordion. 
+[Cellist](https://github.com/cellist) were used as a basis and then adapted for accordion. 
 
 ### <a name="rationale"   ></a>4. Rationale
 
