@@ -12,6 +12,23 @@
   tagline   = ""  % removed 
 }
 
+accoBassRef = #(define-music-function
+     (parser location firstNote secondNote)
+     (ly:music? ly:music?)
+      #{
+        \afterGrace
+        $firstNote
+        {
+          \once \override Stem.stencil = ##f
+          \once \override Flag.stencil = ##f
+		  \once	\override ParenthesesItem.font-size = #+1
+		  \once	\override ParenthesesItem.X-extent = #'(0.5 . 0.5)
+		  \once	\override Score.GraceSpacing.spacing-increment = #1.2
+          \parenthesize $secondNote
+        }
+      #}
+     )
+
 voiceconsts = {
   \key g \major
   \time 4/4
@@ -57,7 +74,7 @@ music =
 	\new Staff <<
 	  \new Voice  \with {midiInstrument = #"accordion"} \unfoldRepeats \music_right_hand_upper_voice
 	  \new Voice  \with {midiInstrument = #"accordion"} \unfoldRepeats \music_right_hand_lower_voice
-	  \new Voice  \with {midiInstrument = #"clav" } \unfoldRepeats \music_left_hand
+	  \new Voice  \with {midiInstrument = #"clav" }     \unfoldRepeats \music_left_hand
 	>>
   >>
 	\midi {
