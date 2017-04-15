@@ -19,7 +19,17 @@ I_allegro_right_hand_upper_voice = \relative c' {
   f8 f fis fis g g gis gis |
   a8 r a r a r r g |
   fis16 g a fis e fis g e fis g a fis e fis g e |
-  d4 r8  r8 r2 |
+  d4 r8  d8 fis32 e d8. a'32 g fis8. |
+
+  %13
+  e8 a, a a e'32 d cis8. g'32 fis e8. |
+  fis8 d d a' h32 a g8. h32 a g8. |
+  e16 cis cis cis e cis cis cis a'32 g fis8. a32 g fis8. |
+  d16 h h h d h h h g'32 fis e8. g32 fis e8. |
+
+  %17
+  fis32 e d8. fis32 e d8. gis32 fis e8. gis32 fis e8. |
+  a4 r4 r2 |
 
   %d2. d8 d |
   %d4 h' a g |

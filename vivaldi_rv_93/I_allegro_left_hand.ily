@@ -19,8 +19,17 @@ I_allegro_left_hand = \relative c' {
   a8 a d c b b e d | 
   cis8 r8 a r <a a' cis e> r8 r8 g |
   d'8 <fis a d>^Maj a, <a' cis e>^Maj d, <fis a d> a, <a' cis e> |
-  <d, fis a d>4 ^Maj r8 r8 r2 |
+  <d, fis a d>4 ^Maj r8 d  <fis a d> r q r |
+  
+  %13
+  e \accoBassRef <a cis e>^Maj a, q q  \accoBassRef <cis' e g>^7 a, r q r |
+  d8 e fis d g, h g h |
+  cis8 r cis r a fis a fis |
+  h r \accoBassRef <h' d fis>^min h, r e a, e' a, |
 
+  %17
+  fis' d fis d gis e gis e |
+  r8 a,16 h cis h cis h a h a h cis h cis h |
   %g4 <g' h d>8 q  g,4 q |
   %g4  <g' h d> e _B \accoBassRef q g, |
   %c4 <g' c e>8^Maj q  c,4 q |
